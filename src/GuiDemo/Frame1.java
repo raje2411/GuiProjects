@@ -3,18 +3,18 @@ package GuiDemo;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+//import javax.swing.JOptionPane;
+//import javax.swing.JPanel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
-import java.awt.FlowLayout;
-import java.awt.BorderLayout;
-import javax.swing.BoxLayout;
+//import java.awt.FlowLayout;
+//import java.awt.BorderLayout;
+//import javax.swing.BoxLayout;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
-import javax.swing.LayoutStyle.ComponentPlacement;
+//import javax.swing.LayoutStyle.ComponentPlacement;
 import java.awt.Color;
 
 public class Frame1 {
