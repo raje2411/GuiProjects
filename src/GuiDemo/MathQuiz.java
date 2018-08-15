@@ -15,7 +15,7 @@ import java.awt.event.ActionEvent;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Calculator {
+public class MathQuiz {
 
 	private JFrame frame;
 	private JTextField num1_1;
@@ -57,7 +57,7 @@ public class Calculator {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Calculator window = new Calculator();
+					MathQuiz window = new MathQuiz();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -69,7 +69,7 @@ public class Calculator {
 	/**
 	 * Create the application.
 	 */
-	public Calculator() {
+	public MathQuiz() {
 		initialize();
 
 		num1_1.setText(Integer.toString(random_num()));
