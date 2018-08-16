@@ -219,7 +219,7 @@ public class MathQuiz {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.getContentPane().setBackground(new Color(51, 204, 255));
+		frame.getContentPane().setBackground(new Color(0, 153, 255));
 		frame.setForeground(Color.BLUE);
 		frame.setBounds(-27, -22, 955, 719);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
